@@ -107,8 +107,9 @@ int main() {
     cout << "Plaintext: " << plaintext << endl;
     cout << "Keyword 1: " << keyword1 << endl;
     cout << "Ciphertext 1: " << encryptPlayfair(plaintext, keyword1) << endl;
-    cout << "Keyword 1: " << keyword2 << endl;
+    cout << "Keyword 2: " << keyword2 << endl;
     cout << "Ciphertext 2: " << encryptPlayfair(plaintext, keyword2) << endl;
     
     return 0;
 }
+
